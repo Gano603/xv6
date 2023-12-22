@@ -29,7 +29,7 @@ tvinit(void)
 void
 idtinit(void)
 {
-  lidt(idt, sizeof(idt));
+ lidt(idt, sizeof(idt));
 }
 
 //PAGEBREAK: 41
